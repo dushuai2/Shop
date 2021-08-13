@@ -1,0 +1,6 @@
+framework module PayoneerCheckout {
+  umbrella header "PayoneerCheckout-umbrella.h"
+
+  export *
+  module * { export * }
+}

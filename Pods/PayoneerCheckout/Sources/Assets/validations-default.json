@@ -1,0 +1,37 @@
+[
+  {
+    "type": "expiryMonth",
+    "regex": "(^0[1-9]|1[0-2]$)"
+  },
+  {
+    "type": "expiryYear",
+    "regex": "^(20)\\d{2}$"
+  },
+  {
+    "type": "bic",
+    "regex": "([a-zA-Z]{4}[a-zA-Z]{2}[a-zA-Z0-9]{2}([a-zA-Z0-9]{3})?)",
+    "maxLength": 11
+  },
+  {
+    "type": "number",
+    "regex": "^[0-9]+$",
+    "maxLength": 34
+  },
+  {
+    "type": "verificationCode",
+    "regex": "^[0-9]*$",
+    "maxLength": 4
+  },
+  {
+    "type": "holderName",
+    "regex": "^.{3,}$"
+  },
+  {
+    "type": "bankCode",
+    "regex": "^.+$"
+  },
+  {
+    "type": "iban",
+    "maxLength": 34
+  }
+]
